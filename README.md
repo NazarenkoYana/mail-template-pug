@@ -6,7 +6,7 @@ When working with layouts, all the rules for displaying HTML letters in modern e
 
 # DEMO
 
-- [Confirm email](https://nazarenkoyana.github.io/mail-templte-pug/dist/auth/confirm-email.html)
-- [Offers emails](https://nazarenkoyana.github.io/mail-templte-pug/dist/offer/offer-is-available.html)
-- [New order](https://nazarenkoyana.github.io/mail-templte-pug/dist/order/new-order.html)
+- [Confirm email](https://nazarenkoyana.github.io/mail-template-pug/dist/auth/confirm-email.html)
+- [Offers emails](https://nazarenkoyana.github.io/mail-template-pug/dist/offer/offer-is-available.html)
+- [New order](https://nazarenkoyana.github.io/mail-template-pug/dist/order/new-order.html)
 
