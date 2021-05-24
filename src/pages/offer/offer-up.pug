@@ -1,0 +1,18 @@
+extends ../../layout
+
+include ../../mixins/hi-user
+include ../../mixins/paragraph
+include ../../mixins/offer
+include ../../mixins/button
+
+
+block title
+    | Some information about your order may be posted here
+
+block content
+    +hiUser()
+    +paragraph() Some information about your order may be posted here #[b #[+link('tet', '') test]] Some information about your order may be posted here
+    +paragraph()
+        +offer() Some information about your order may be posted here
+    +paragraph() Some information about your order may be posted here
+    +button() Bump up the list

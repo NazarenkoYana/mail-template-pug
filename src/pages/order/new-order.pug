@@ -1,0 +1,25 @@
+extends ../../layout
+
+include ../../mixins/hi-user
+include ../../mixins/paragraph
+include ../../mixins/offer
+include ../../mixins/button
+include ../../mixins/order-heading
+include ../../mixins/order-info
+
+
+block title
+    | Information about order
+block content
+    +hiUser()
+    +paragraph() Some information about your order may be posted here some information about your order may be posted here
+    +orderHeading()
+    +paragraph()
+        +offer() Some information about your order may be posted here
+    +paragraph()
+        +offer() Some information about your order may be posted here
+    +paragraph()
+        +offer() Some information about your order may be posted here
+    +orderInfo()
+    p(style='text-align: center; margin: 0;') You can follow the link for more detailed information в #[b #[+link('Personal Area', '') Personal Area]]
+

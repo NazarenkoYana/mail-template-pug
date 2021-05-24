@@ -1,0 +1,17 @@
+extends ../../layout
+include ../../mixins/hi-user
+include ../../mixins/paragraph
+include ../../mixins/verification-code
+include ../../mixins/ignore-if-not-you
+
+block title
+    | Confirm email
+
+block content
+    +hiUser()
+    +paragraph() We have received a request to confirm the email address for your account on test.ua #[b #[+link('mailto:test.ua', '') test.ua]]
+    +paragraph() To confirm, use this code
+    +paragraph()
+        +verificationCode() 12321
+    +ignoreIfNotYou()
+

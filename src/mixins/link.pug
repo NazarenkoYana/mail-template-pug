@@ -1,0 +1,5 @@
+mixin link(href, type)
+    - let color = type === 'black' ? '#4080b3' : '#82999c'
+    a(style='color: ' + color + '; font-weight: 700; text-decoration: none;' href=href target='_blank')
+        block
+

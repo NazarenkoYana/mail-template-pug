@@ -1,0 +1,17 @@
+mixin offer()
+    span(style='display: block;')
+        table(style='width: 100%;')
+            tbody(style="vertical-align: top;")
+                tr(style="padding: 0; height: 20px;")
+                    td(rowspan='2' style="width: 90px; padding: 0 10px 0 0; vertical-align: top;")
+                        div(style='margin-right: 20px;')
+                            div(style='width: 90px; height: 90px; border: 1px solid white; background-color: #e2ebf3; display: block; margin: 0 0 0 -20px;')
+                    td(style="padding: 0 10px 0 0; vertical-align: top;")
+                        span(style='display: block; color: #82999c; font-weight: 600;font-size: 14px;line-height: 18px; text-align: left; padding: 0;') № 111111
+                    td(style="padding: 0 10px 0 0; vertical-align: top;")
+                        span(style='display: block; color: #000000; font-weight: 600;font-size: 14px;line-height: 18px; text-align: right; padding: 0;') 111 $
+                tr(style="padding: 0;")
+                    td(colspan='2' style="padding: 0 10px 0 0; vertical-align: top;")
+                        p(style='text-align: left; margin: 0;')
+                            block
+
